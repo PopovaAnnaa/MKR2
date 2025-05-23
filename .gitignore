@@ -1,0 +1,46 @@
+# Python кеші та тимчасові файли
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Віртуальні середовища
+venv/
+env/
+.venv/
+
+# Файли бази даних SQLite (якщо використовуєш)
+db.sqlite3
+
+# Логи
+*.log
+
+# Медія та статичні файли (якщо не зберігаєш у репозиторії)
+media/
+staticfiles/
+
+# Файли налаштувань середовища
+.env
+.env.*
+
+# macOS
+.DS_Store
+
+# IDE/редактори
+.vscode/
+
+# Покриття тестами
+.coverage
+htmlcov/
+.coverage.*
+
+# Pytest кеш
+.pytest_cache/
+
+# Build артефакти
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
